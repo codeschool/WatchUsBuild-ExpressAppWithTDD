@@ -9,6 +9,7 @@
   "author": "Carlos Souza <carloshrsouza@gmail.com> (http://csouza.me/)",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.9.3",
     "express": "^4.10.4"
   },
   "devDependencies": {
