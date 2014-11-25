@@ -1,0 +1,118 @@
+/* ----- Building Blocks Stylsheet ----- */
+
+/* Base */
+
+html {
+  background: #f9b8b4; /* Old browsers */
+  background: url('bg-stars.png') repeat-x center top, linear-gradient(to bottom, #f9b8b4 0%, #ebe8ba 100%) no-repeat center; /* W3C */
+  min-height: 100%;
+}
+
+body {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  padding-top: 80px;
+  width: 600px;
+}
+
+/* Headings */
+
+h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Lists */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  margin-bottom: 10px;
+}
+ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* Links */
+
+a {
+  color: #d19b99;
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+}
+a:hover,
+a:active {
+  color: #333;
+}
+
+/* Shared */
+
+form, .city-list {
+  background: white;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+/* Form */
+
+legend {
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+}
+input {
+  border: 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+input:focus {
+  box-shadow: 0 0 4px rgba(249, 184, 180, 0.85);
+  outline: none;
+}
+input[type="submit"] {
+  background: #d19b99;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  width: auto;
+}
+
+/* Alert */
+
+.alert {
+  background: #dd516c;
+  color: white;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  display: none;
+}
+
+/* Block List */
+
+.city-list li::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+.city-list li a:last-child {
+  float: left;
+  padding-right: 10px;
+}
