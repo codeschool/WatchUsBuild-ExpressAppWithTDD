@@ -279,6 +279,28 @@
           "resolved": "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.0.tgz"
         }
       }
+    },
+    "hiredis": {
+      "version": "0.1.17",
+      "from": "hiredis@",
+      "resolved": "https://registry.npmjs.org/hiredis/-/hiredis-0.1.17.tgz",
+      "dependencies": {
+        "bindings": {
+          "version": "1.2.1",
+          "from": "bindings@*",
+          "resolved": "https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz"
+        },
+        "nan": {
+          "version": "1.1.2",
+          "from": "nan@~1.1.0",
+          "resolved": "https://registry.npmjs.org/nan/-/nan-1.1.2.tgz"
+        }
+      }
+    },
+    "redis": {
+      "version": "0.12.1",
+      "from": "redis@",
+      "resolved": "https://registry.npmjs.org/redis/-/redis-0.12.1.tgz"
     }
   }
 }

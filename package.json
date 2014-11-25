@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "NODE_ENV=test mocha -w app.js test.js"
   },
   "author": "Carlos Souza <carloshrsouza@gmail.com> (http://csouza.me/)",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.9.3",
-    "express": "^4.10.4"
+    "express": "^4.10.4",
+    "hiredis": "^0.1.17",
+    "redis": "^0.12.1"
   },
   "devDependencies": {
     "mocha": "^2.0.1",
