@@ -70,6 +70,11 @@
         }
       }
     },
+    "ejs": {
+      "version": "1.0.0",
+      "from": "ejs@",
+      "resolved": "https://registry.npmjs.org/ejs/-/ejs-1.0.0.tgz"
+    },
     "express": {
       "version": "4.10.4",
       "from": "express@4",
