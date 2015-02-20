@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test mocha test.js"
+    "test": "NODE_ENV=test mocha test.js",
+    "start": "node bin/www"
   },
   "author": "Carlos Souza <carloshrsouza@gmail.com> (http://csouza.me/)",
   "license": "ISC",
