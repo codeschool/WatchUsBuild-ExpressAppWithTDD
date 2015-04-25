@@ -8,4 +8,4 @@ Install redis. Run `npm install` and `npm start`.
 
 ## Tests
 
-To run tests, run `npm test`. These alsodepend on a redis server up and running.
+To run tests, run `npm test`. These also depend on a redis server up and running.
